@@ -16,7 +16,7 @@ Hosting a simple website on GitHub is not too challenging.  This guide will help
 4. After that completes, you now have a repository on GitHub that you need to keep sending your code up to.  Navigate to your new repository in your web browser by going to [https://github.com/<your_username>/<repository_name>](https://github.com/).  (You have to fill in those values yourself.)  For example, mine was [https://github.com/nzufelt/ap_csc500_topic_list_website](https://github.com/nzufelt/ap_csc500_topic_list_website).  Click on the Settings tab.
 ![Settings](screenshots/github_settings.png)
 5. Scroll down to "GitHub Pages", change "None" to "master branch", and hit "save".  After that, if you scroll back to the "GitHub Pages" section of the settings, then you should now have a link that you can navigate to, hosting your website.  Mine was [https://nzufelt.github.io/ap_csc500_topic_list_website/](https://nzufelt.github.io/ap_csc500_topic_list_website/).  If you go to that website, you should see the version of your website that is currently available up on GitHub's servers.
-![Activate GHPages](screenshots\activate_ghpages.png)
+![Activate GHPages](screenshots/activate_ghpages.png)
 
 ### Each time you update
 Now, each time you make another change to the local repository (in that special folder on your computer that you opened in \#1 above), you won't see the changes on your live version on GitHub.  In order to see that, you'll have to "push" your changes up to GitHub.  This requires a couple of steps:
