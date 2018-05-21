@@ -143,6 +143,7 @@ function update(which) {
   range23.min = split12;
 };
 
+// populate topics into their columns
 function placeTopics() {
   Object.values(terms).forEach(function(term) {
     while (term.firstChild) {
@@ -162,9 +163,22 @@ function placeTopics() {
       terms.term3.appendChild(elt);
     }
   });
-}
 
+  // make columns equal length
+  let x = [
+    +terms.term1.parentNode.clientHeight,
+    +terms.term2.parentNode.clientHeight,
+    +terms.term3.parentNode.clientHeight
+  ];
+  let height = Math.max(x);
+
+  console.log(x);
+  console.log(terms.term1.parentNode.clientHeight);
+  console.log(terms.term2.parentNode.clientHeight);
+  console.log(terms.term3.parentNode.clientHeight);
+}
 placeTopics();
+
 </script>
 </body>
 </html>
