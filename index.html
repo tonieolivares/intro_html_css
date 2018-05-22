@@ -7,9 +7,10 @@
   <meta name="keywords" content="HTML/CSS, web development, webdev, example website, students" />
   <meta name="robots" content="index,follow" />
   <style>
+    @import url('https://fonts.googleapis.com/css?family=Roboto');
     * {
       text-align: center;
-      font-family: Verdana, Arial, sans-serif;
+      font-family: 'Roboto', Verdana, Arial, sans-serif;
     }
     div a:first-child {
       line-height: 4em;
@@ -28,6 +29,8 @@
       background-color: #0058a0;
       margin: 0 auto;
       margin-top: 2em;
+      -webkit-transition: background-color 0.3s; /* Safari */
+      transition: background-color 0.3s;
     }
 
     .code {
@@ -37,6 +40,8 @@
       top: -2em;
       left: 15em;
       color: #ffe180;
+      -webkit-transition: color 0.5s; /* Safari */
+      transition: color 0.5s;
     }
 
     .code:hover{
@@ -50,6 +55,18 @@
       transition: background-color 0.3s;
       background-color: #0082ca;
     }
+
+    .other {
+      background-color: #8eb3da;
+      -webkit-transition: background-color 0.3s; /* Safari */
+      transition: background-color 0.3s;
+    }
+
+    .other:hover {
+      -webkit-transition: background-color 0.3s; /* Safari */
+      transition: background-color 0.3s;
+      background-color: #c2d6ec;
+    }
   </style>
 </head>
 <body>
@@ -58,10 +75,6 @@
     Which version would you like to see?
   </p>
 
-  <div class="choice">
-    <a href="template.html"> Template </a>
-    <a class="code" href="https://raw.githubusercontent.com/nzufelt/intro_html_css/master/template.html">(HTML)</a>
-  </div>
   <div class="choice">
     <a href="start/index.html"> Start </a>
     <a class="code" href="https://raw.githubusercontent.com/nzufelt/intro_html_css/master/start/index.html">(HTML)</a>
@@ -73,6 +86,13 @@
   <div class="choice">
     <a href="javascript_version/index.html"> With JavaScript </a>
     <a class="code" href="https://raw.githubusercontent.com/nzufelt/intro_html_css/master/javascript_version/index.html">(HTML</a><a class="code" href="https://raw.githubusercontent.com/nzufelt/intro_html_css/master/javascript_version/stylesheet.css">/CSS)</a>
+  </div>
+  <div class="choice other">
+    <a href="template.html"> Template </a>
+    <a class="code" href="https://raw.githubusercontent.com/nzufelt/intro_html_css/master/template.html">(HTML)</a>
+  </div>
+  <div class="choice other">
+    <a href="https://github.com/nzufelt/intro_html_css"> Helpful Resources </a>
   </div>
 
 </body>
