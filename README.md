@@ -15,6 +15,7 @@ Each of these websites can answer nearly any web development question you have.
 * [Unsplash](https://unsplash.com/): beautiful images
 * [FlatIcon](https://www.flaticon.com/): icons
 * [Google Fonts](https://fonts.google.com/): fonts
+* [Coolors.co](https://coolors.co/): color palettes
 
 ### Videos
 * [HTML in 15 Minutes](https://www.youtube.com/watch?v=Ggh_y-33Eso)
